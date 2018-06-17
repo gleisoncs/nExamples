@@ -38,6 +38,10 @@ public class MultithreadingEx8 {
 }
 
 class MyCallable implements Callable<Long> {
+	
+	public MyCallable() {
+		
+	}
 	@Override
 	public Long call() throws Exception {
 		long sum = 0;
