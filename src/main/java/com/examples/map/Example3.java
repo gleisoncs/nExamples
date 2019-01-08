@@ -4,6 +4,7 @@ import java.util.Comparator;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
+import java.util.function.Function;
 import java.util.stream.Collectors;
 
 public class Example3 {
@@ -31,7 +32,6 @@ public class Example3 {
 	                .collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue,
 	                        (oldValue, newValue) -> oldValue, LinkedHashMap::new));
 
-							
 	        //Alternative way
 	        Map<String, Integer> result2 = new LinkedHashMap<>();
 	        unsortMap.entrySet().stream()

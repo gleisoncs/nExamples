@@ -10,7 +10,7 @@ public class Example14 {
 		tags.add(new ServiceTag(new Long(1), "A"));
 		tags.add(new ServiceTag(new Long(2), "B"));
 		long deduplicates = tags.stream().map(s -> s.getTag()).distinct().count();
-		System.out.println(tags.size() - deduplicates);
+		System.out.println(deduplicates);
 	}
 }
 

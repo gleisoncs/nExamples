@@ -1,12 +1,13 @@
 package com.examples.others;
 
+//Binary Gap
 public class ChallengeSami {
 	public static void main(String[] args) {
 		int[] a = { 4, 6, 2, 2, 6, 3 };
-		ChallengeSami.solution1(a);
-		ChallengeSami.solution2(a);
-		ChallengeSami.solution3(a);
-		ChallengeSami.solution4(a);
+		System.out.println(ChallengeSami.solution1(a));
+		System.out.println(ChallengeSami.solution2(a));
+		System.out.println(ChallengeSami.solution3(a));
+		System.out.println(ChallengeSami.solution4(a));
 	}
 
 	static int solution1(int[] a) {

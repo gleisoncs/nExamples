@@ -22,13 +22,5 @@ public class Example1 {
 			if ("E".equals(a))
 				System.out.println("EEEEE");
 		});
-		
-		
-		//lamba and array
-		ArrayList<String> magic = new ArrayList<String>();
-		magic.add("eu");
-		magic.add("estou");
-		magic.add("aqui");
-		magic.forEach((a) -> System.out.println(String.format("%s|", a)));
 	}
 }

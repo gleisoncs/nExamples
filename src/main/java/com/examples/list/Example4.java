@@ -25,10 +25,10 @@ public class Example4 {
 	
 	public static void main(String args[]) throws IOException {
 		printStream();
-		printList();
-		printScanner();
-		printFiles();
-		printBufferedReader();
+//		printList();
+//		printScanner();
+//		printFiles();
+//		printBufferedReader();
 	}
 
 	private static void printFiles() throws IOException {
